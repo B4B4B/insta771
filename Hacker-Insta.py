@@ -19,8 +19,8 @@ E = '\033[1;31m' #احمر
 C = "\033[1;97m" #ابيض
 
 
-ToKen = "5556991334:AAEhUwneEItH8pO44OEbyXAC7MBmg-cLV1Q"
-admin=[5244755240,2126188116,1403347605,5374908156]
+ToKen = "5587388525:AAH9sOgVWVGYPEmFzIjqbubNBv6vBCEQVyk"
+admin=[5244755240,2126188116,5571254646,5374908156]
 bot = telebot.TeleBot(ToKen)
 @bot.message_handler(commands=['start'])
 def start_message(message):
